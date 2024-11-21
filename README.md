@@ -84,9 +84,10 @@ This project is an influencer and sponsorship coordination platform built using 
 ### Step 6: Setup Emailing
 1. Create a Google App Password and update the email settings in `tasks.py`:
     ```python
-    # Replace 'your_own_gmail@gmail.com' and 'your_smtp_password' with your own credentials in backend/engine/tasks.py
-    EMAIL = 'your_own_gmail@gmail.com'
-    PASSWORD = 'your_smtp_password'
+    ''' Replace 'your_own_gmail@gmail.com' and 'your_smtp_password' with your own credentials in backend/engine/tasks.py
+        or any other 'your_own_gmail@gmail.com' occurrences in the tasks.py file.'''
+    smtp_email = 'your_own_gmail@gmail.com'
+    smtp_password = 'your_smtp_password'
     ```
 2. Save the changes to `tasks.py`.
 
