@@ -45,7 +45,7 @@ app.conf.timezone = 'Asia/Kolkata'
 def test_task():
     logging.info("Test task executed")
     try:
-        email = ['23f1001879@ds.study.iitm.ac.in']
+        email = ['your_own_test_gmail@gmail.com']
         name = 'User'
         send_email(email, "Final freaking testing", "Took all my soul out when it crashed :/", name)
     except Exception as e:
@@ -55,7 +55,7 @@ def test_task():
 def send_email(receivers, subject, message, user_name, attachment_content=None, attachment_filename=None):
     msg = MIMEMultipart()
     msg['Subject'] = subject
-    msg['From'] = 'rahulsharmays97@gmail.com'
+    msg['From'] = 'your_own_gmail@gmail.com'
     msg['To'] = COMMASPACE.join(receivers)
     msg.attach(MIMEText(generate_email_content(subject, message, user_name), 'html'))
 
@@ -69,8 +69,8 @@ def send_email(receivers, subject, message, user_name, attachment_content=None, 
 
     smtp_server = 'smtp.gmail.com'
     port = 587
-    smtp_user = 'rahulsharmays97@gmail.com'
-    smtp_pass = 'nfhn jkdv bylj oapi'
+    smtp_user = 'your_own_gmail@gmail.com' 
+    smtp_pass = 'abcd efgh ijkl mnop'  # here use your own Google App Password 
 
     try:
         with smtplib.SMTP(smtp_server, port) as server:
