@@ -1,3 +1,6 @@
+# used earlier to learn but it's of no use so I made random name of this .py file XD
+
+
 class Response:
     def __init__(self, message, data=None):
         self.message = message
