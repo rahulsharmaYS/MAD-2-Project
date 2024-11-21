@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #f0953379 0%, #2331d3c0 25%, #c32139d6 50%, #cc2367b0 75%, #c84ca1a9 100%);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.full-height {
+    height: 100vh;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.welcome-section h1 {
+    font-size: 3rem;
+    font-family: cursive;
+    
+}
+
+.divider {
+    width: 2px;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 20px;
+}
+
+.login-section {
+    flex: 1;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.login-section h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.login-section .form-control {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.login-section .btn {
+    width: 100%;
+    border-radius: 20px;
+    padding: 15px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.login-section .text-link {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-section .btn-info, .login-section .btn-warning {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .welcome-section h1 {
+        font-size: 2rem;
+    }
+
+    .login-section {
+        padding: 20px;
+    }
+
+    .login-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .login-section .form-control {
+        padding: 12px;
+    }
+
+    .login-section .btn {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .full-height {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+
+    .welcome-section {
+        margin-bottom: 20px;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .login-section {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .login-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .login-section .form-control {
+        padding: 10px;
+    }
+
+    .login-section .btn {
+        padding: 10px;
+    }
+}
+
+
+.component-wrapper {
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: -29px;
+    right: -25px;
+    font-size: 1.5em;
+    color: #ffffff95;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    color: #ffffff;
+}
+
+.back-button i {
+    cursor: pointer;
+}
+
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.select-wrapper select {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: none;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    padding-right: 2.5rem; 
+    border-radius: 4px;
+}
+
+.select-wrapper::after {
+    content: '\f078';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.form-control-sm {
+    font-size: 0.875rem;
+}
+
+.social-media-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}

@@ -1,0 +1,38 @@
+.body{
+    background-color: #367abe;
+
+}
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+.container {
+    margin-top: 20px;
+}
+.modal-content button {
+    margin-right: 10px;
+}
+.modal-title {
+    font-weight: bold;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.modal-footer {
+    justify-content: center;
+}
+
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stats-chart {
+    width: 48%;
+  }
+
+  
