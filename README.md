@@ -107,6 +107,6 @@ This project is an influencer and sponsorship coordination platform built using 
     ```
 
 ## Disclaimer
-**Caution**: Do not use random Gmail accounts as this application will send emails to actual Gmail addresses. Ensure you use valid and authorized email credentials.
+**⚠️Caution ⚠️**: Do not use random Gmail accounts as this application will send emails to actual Gmail addresses. Ensure you use valid and authorized email credentials.
 
 That's it! The project should now be up and running.
