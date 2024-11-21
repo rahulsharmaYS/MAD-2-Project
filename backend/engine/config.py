@@ -35,4 +35,4 @@ class Config:
     MAIL_PASSWORD = None
     MAIL_USE_TLS = False
     MAIL_USE_SSL = False
-    MAIL_DEFAULT_SENDER = 'rahulsharmays97@gmail.com'
+    MAIL_DEFAULT_SENDER = 'your_own_gmail@gmail.com'
